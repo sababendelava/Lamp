@@ -7,7 +7,7 @@
 
 .hero{
     background: #1d2026;
-    min-height: 100vh;
+    padding: 50px 0px;
     width: 100%;
     color: #fff;
     position: relative;
@@ -142,3 +142,113 @@ button span{
 .on{
     opacity: 1;
 }
+.mail-form{
+    border: 2px solid rgb(68, 65, 65);
+    width: 400px;
+    height: 400px;
+    margin-top: 10 500px;
+    margin-left: 800px;
+}
+.about-text{
+    text-align: center;
+}
+.tel-logo{
+    height: 25px;
+    height: 25px;
+}
+.number{
+    margin-left: 35px;
+    margin-top: -23px;
+}
+.mail-logo{
+    height: 25px;
+    height: 25px;
+}
+.mail{
+    margin-left: 35px;
+    margin-top: -23px;
+
+}
+.About-us{
+    background: rgb(6, 141, 40);
+}
+.home{
+    background: rgb(6, 141, 40);
+
+}
+
+
+.nivtebi{
+    background: rgb(6, 141, 40);
+}
+.contact{
+    background: rgb(6, 141, 40);
+}
+.shoping{
+    /* width: 250px; */
+    width: 15%;
+    height: 400px;
+    margin-left:80px;
+    margin-top: 400px;
+    float:left
+}
+/* h2 h6{
+    text-align: center;
+    color: #f62459;
+} */
+
+.price{
+    text-align: center;
+    color: #f62459;
+}
+.old-price{
+color: #999;
+}
+
+.productlist{
+    float: left;
+    margin-left: 5%;
+}
+
+.produqti{
+    width: 250px;
+    height: 320px;
+    /* border: 1px solid rebeccapurple; */
+    /* padding-left: 10px; */
+    margin-top: 300px;
+    transition: width 1s, height 1s;
+}
+
+.produqti:hover{
+    width: 300px;
+    height: 370px;
+}
+        /* Weekly Offer ჩარჩო */
+.charcho{
+    width: 1000px;
+    height: 400px;
+    /* margin-top: 800px; */
+    margin-top: 800px;
+    margin-bottom: 200px;
+    margin-left: 10%;
+    border: 3px solid rebeccapurple;
+}
+
+.offer{
+    color: red;
+    padding-top:100px;
+}
+
+.offerlist{
+    margin-top: -80px;
+    margin-right: 10px;
+    float: right;
+    
+}
+
+.offerlistphoto:hover{
+    width: 300px;
+    height: 370px;
+}
+
+

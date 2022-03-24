@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>FINAL</title>
+</head>
+<body>
+    <div class="hero">
+        <nav>
+            <img class="menu" src="img/menu.png" alt="">
+            <img class="logo" src="img/logo.png" alt="">
+            <ul>
+                <li><a href="home.html">HOME</a></li>
+                <li class="About-us" ><a href="About.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="Collection.html">Collection</a></li>
+            </ul>
+            <button type="button" onclick="togglebtn()" id="btn" ><span></span></button>
+
+        </nav>
+
+        <div class="lamp-container">
+            <img class="lamp" src="img/lamp.png" alt="">
+            <img class="light" src="img/light.png" id="light" alt="">
+        </div>
+
+        <!-- <div class="text-container">
+            <h1>Latest<br> in Lighting</h1>
+            <p>This is the first lamp from our company.we're making a huge cellection of modern Lamp in all categories from home use to office use.</p>
+            <a href="">Check All Collections</a>
+            <div class="control">
+                <p>04</p>
+                <div class="line"><span></span></div>
+                <p>05</p>
+            </div>
+
+        </div> -->
+
+        <!-- <div class="test">
+            <h2 class="about-text">Hello <br></h2>
+            <br>
+            <p>My Name Is Saba Bendelava And This Is my Firs Project</p>
+            <br>
+            <p>In This Page you Can Find Contact Information</p>
+            <hr><br>
+            <img class="tel-logo" src=https://cdn-icons.flaticon.com/png/512/3059/premium/3059606.png?token=exp=1647793503~hmac=390e4ea9bf20524cc425003306826085>
+            <p class="number" >598-48-16-93</p>
+            <br>
+            <img class="mail-logo" src="https://cdn-icons-png.flaticon.com/512/948/948593.png" alt="">
+            <a href=""><p class="mail" >sbendelava87@gmail.com</p></a>
+        </div> -->
+
+        <div class="mail-form">
+            <h2 class="about-text">Hello <br></h2>
+            <br>
+            <p>My Name Is Saba Bendelava And This Is my Firs Project</p>
+            <br>
+            <p>In This Page you Can Find Contact Information</p>
+            <hr><br>
+            <h3>Send e-mail if you have any Question</h3>
+
+                            <!-- this is form for input email -->
+            <form action="sbendelava87@gmail.com" method="post" enctype="text/plain">
+                Name:<br>
+                <input type="text" name="name"><br>
+                E-mail:<br>
+                <input type="text" name="mail"><br>
+                Comment:<br>
+                <input type="text" name="comment" size="20"><br><br>
+                <input type="submit" value="Send">
+                <input type="reset" value="Reset">
+                </form>
+
+        </div>
+
+
+
+    </div>
+    <script>
+        var btn = document.getElementById("btn");
+        var light = document.getElementById("light");
+
+        function togglebtn(){
+            btn.classList.toggle("active");
+            light.classList.toggle("on");
+        }
+         
+    </script>
+</body>
+</html>
